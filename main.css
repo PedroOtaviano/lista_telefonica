@@ -69,36 +69,17 @@ thead {
 }
 
 th, td {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ecf0f1;
 }
 
+th {
+    width: 50%;
+}
+
 tbody tr:hover {
     background-color: #ecf0f1;
-}
-
-td:last-child {
-    text-align: right;
-}
-
-@media (max-width: 600px) {
-    form {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    form input {
-        width: 100%;
-    }
-
-    form button {
-        width: 100%;
-    }
-
-    table {
-        font-size: 0.9rem;
-    }
 }
 
 footer {
